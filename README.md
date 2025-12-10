@@ -1,5 +1,8 @@
-[![pages-build-deployment](https://github.com/Wayrier/java-csv-json-address-manager/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Wayrier/java-csv-json-address-manager/actions/workflows/pages/pages-build-deployment)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Java](https://img.shields.io/badge/Java-17-blue.svg)
+![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-orange)
+![Library](https://img.shields.io/badge/Library-Gson-green.svg)
+
 
 # 📂 CSV & JSON Address Manager (Java)
 
