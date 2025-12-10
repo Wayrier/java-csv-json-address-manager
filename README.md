@@ -1,3 +1,6 @@
+[![pages-build-deployment](https://github.com/Wayrier/java-csv-json-address-manager/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Wayrier/java-csv-json-address-manager/actions/workflows/pages/pages-build-deployment)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # 📂 CSV & JSON Address Manager (Java)
 
 A small **Java desktop app** using `JOptionPane` to manage an address list, supporting **CSV** and **JSON** formats.
