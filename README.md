@@ -1,33 +1,62 @@
-# CSV & JSON Address Manager (Java)
+📂 CSV & JSON Address Manager (Java)
 
-Kleine Java-Übungsanwendung zum Verwalten einer Adressliste mit CSV- und JSON-Unterstützung.
+A small Java desktop app using JOptionPane to manage an address list, supporting CSV and JSON formats.
 
-## Features
+──────────────────────────────────────────────
+🚀 Features
+──────────────────────────────────────────────
+• Read and display address list from CSV
+• Add new addresses
+• Export all entries to JSON
+• Import addresses from a JSON file
+• Basic input validation
+• Simple GUI built with JOptionPane
 
-- CSV-Datei einlesen (Adressliste)
-- Adressen anzeigen
-- Neue Adresse hinzufügen
-- Export der Adressen als JSON
-- Import der Adressen aus einer JSON-Datei
-- Einfache GUI mit `JOptionPane`
+──────────────────────────────────────────────
+🧰 Technologies
+──────────────────────────────────────────────
+Language: Java (SE 17+)
+GUI: Swing (JOptionPane)
+JSON Handling: Gson (https://github.com/google/gson)
 
-## Technologien
+──────────────────────────────────────────────
+🧱 Project Structure
+──────────────────────────────────────────────
+src/
+ └─ main/
+    └─ java/
+       └─ de/
+          └─ wayrier/
+             └─ adressmanager/
+                ├─ CSVApp.java
+                ├─ CSVManager.java
+                ├─ CSVEntry.java
+                ├─ CSV_JSON_APP.java
+                └─ JsonDemo.java
+data/
+ ├─ csv.csv
+ └─ personen.json
 
-- Java (SE)
-- Swing (`JOptionPane`)
-- Gson (für JSON)
+──────────────────────────────────────────────
+▶️ How to Run
+──────────────────────────────────────────────
+1. Open the project in IntelliJ IDEA
+2. Make sure gson-2.11.0.jar is added to your project libraries
+3. Run the main class:
+   CSVApp.java
+4. Follow the pop-up prompts to manage addresses.
 
-## Projektstruktur
+──────────────────────────────────────────────
+🧠 Learning Outcome
+──────────────────────────────────────────────
+This project demonstrates:
+• Java file handling (CSV / JSON)
+• Basic GUI programming with Swing
+• Exception handling & user validation
+• Modular class design (MVC-like separation)
 
-- `CSVEntry` – Modellklasse für einen Adressdatensatz (Vorname, Nachname, E-Mail)
-- `CSVManager` – Logik für:
-  - CSV lesen/schreiben
-  - JSON-Export (`exportToJson`)
-  - JSON-Import (`importFromJson`)
-- `CSVApp` – Hauptprogramm mit Menü (CSV/JSON-Verwaltung)
-
-## Ausführen
-
-- Projekt in IntelliJ öffnen
-- Sicherstellen, dass `gson` als Library eingebunden ist
-- `CSVApp` als `main`-Klasse starten
+──────────────────────────────────────────────
+📄 License
+──────────────────────────────────────────────
+MIT License © 2025 Mohammed Afana (Wayrier)
+GitHub: https://github.com/Wayrier/java-csv-json-address-manager
